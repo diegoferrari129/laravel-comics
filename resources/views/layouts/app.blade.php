@@ -12,15 +12,7 @@
 
 <body>
 
-    <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Comics">
-                </div>
-            </div>
-        </div>
-    </header>
+    @include('partials.header')
 
     <main>
         @yield('jumbo')
