@@ -18,6 +18,8 @@
         @yield('jumbo')
     </main>
 
+    @include('partials.footer')
+
 </body>
 
 </html>
