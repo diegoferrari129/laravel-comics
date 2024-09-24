@@ -21,7 +21,11 @@
                             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Comics">
                         </div>
                         <div>
-                            navbar
+                            <ul class="list-unstyled d-flex">
+                                <li>
+                                    navbar
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
