@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DC Comics</title>
 
+    {{-- font --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     @vite('resources/js/app.js')
 </head>
 
@@ -15,7 +21,7 @@
     @include('partials.header')
 
     <main>
-        @yield('jumbo')
+        @yield('comics')
     </main>
 
     @include('partials.footer')

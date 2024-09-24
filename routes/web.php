@@ -17,6 +17,5 @@ Route::get('/', function () {
 
     $comics = config('db.comics');
    
-
     return view('home', compact('comics'));
 })->name('homepage');
